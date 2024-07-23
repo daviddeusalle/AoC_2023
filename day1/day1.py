@@ -16,7 +16,7 @@ def one_star(lines):
         count += int(start + end)
     return count 
 
-lines = read('day1/input.txt')
+lines = read('input.txt')
 print(one_star(lines))
 
 
